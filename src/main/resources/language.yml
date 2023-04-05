@@ -1,0 +1,63 @@
+primary-color: "&6"
+secondary-color: "&4"
+plugin-prefix: "[MegaModeration]"
+
+reloading: "&aReloading plugin config.yml and language.yml"
+reloaded: "&aReloaded plugin config.yml and language.yml"
+not-reloaded: "&cError while reloading, check console for more information"
+
+silent: "&8[SILENT] "
+
+command:
+  permission-message: "&cYou can't execute this command"
+  only-player: "&4Only players can execute this command"
+  only-console: "&4Only console can execute this command"
+
+
+no-reason: "No Reason Specified"
+
+ban:
+  already-banned: "That player is already banned"
+  banned: "You banned %player%"
+
+unban:
+  not-banned: "That player is not banned"
+  unbanned: "You unbanned %player%"
+
+kick:
+  kicked: "You kicked %player%"
+
+mute:
+  muted: "Muted %player%"
+  already-muted: "That player is already muted"
+
+unmute:
+  not-muted: "That player is not muted"
+  unmuted: "Unmuted %player%"
+
+staffchat:
+  off: "Staffchat is now off"
+  on: "Staffchat is now on"
+
+silent-container:
+  silent-container: "&8You silently opened a container"
+  on: "Silent container on"
+  off: "Silent container off"
+
+clearchat:
+  cleared-chat: "Chat was cleared by %player%"
+
+globalmute:
+  on: "GlobalMute activated by %player%"
+  off: "GlobalMute deactivated by %player%"
+
+vanish:
+  on: "&aYou are now in vanish"
+  off: "&aYou are no longer in vanish"
+  actionbar: "&aYou are currently vanished"
+
+freeze:
+  frozen-other: "&bYou froze %player%"
+  unfrozen-other: "&bYou unfroze %player%"
+  frozen: "&bYou got frozen"
+  unfrozen: "&bYou are no longer frozen"

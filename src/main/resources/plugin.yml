@@ -1,0 +1,102 @@
+name: MegaModeration
+version: '${project.version}'
+main: me.alvsch.megamoderation.MegaModeration
+api-version: 1.14
+authors: [ Alvsch1 ]
+commands:
+
+  megamoderation:
+    usage: "/<command>"
+    description: "The main command for the plugin: MegaModeration"
+    aliases: [mm]
+
+  ban:
+    usage: "/<command> <player> [reason]"
+    description: "Permanently ban the player"
+    aliases: []
+
+  clearchat:
+    usage: "/<command> [-s]"
+    description: "Clear the chat for all players"
+    aliases: [cc]
+
+
+  endersee:
+    usage: "/<command> <player>"
+    description: "Open a players ender chest"
+    aliases: []
+
+  freeze:
+    usage: "/<command> <player>"
+    description: "Make a player unable to move"
+    aliases: []
+
+  globalmute:
+    usage: "/<command> [-s]"
+    description: "Mute the chat for everyone"
+    aliases: [mutechat]
+
+  invsee:
+    usage: "/<command> <player>"
+    description: "Open the players inventory"
+    aliases: [openinv, openinventory]
+
+  kick:
+    usage: "/<command> <player> [reason]"
+    description: "Kicks the player of the server"
+    aliases: []
+
+  modmode:
+    usage: "/<command>"
+    description: "Change to a different inventory and get some tools for moderation"
+    aliases: [mod, staff, staffmode]
+
+  mute:
+    usage: "/<command> <player>"
+    description: "Mutes the player"
+    aliases: []
+
+  player:
+    usage: "/<command> <player>"
+    description: "Get info about the player"
+    aliases: [playerinfo]
+
+  silentcontainer:
+    usage: "/<command>"
+    description: "Open a container silently"
+    aliases: []
+
+  staffchat:
+    usage: "/<command> [message]"
+    description: "Send a message only staff can see"
+    aliases: [sc]
+
+  tempban:
+    usage: "/<command> <player> <time> [reason]"
+    description: "Temporarily bans the player"
+    aliases: []
+
+  unban:
+    usage: "/<command> <player>"
+    description: "Unbans the player"
+    aliases: []
+
+  unmute:
+    usage: "/<command> <player> [reason]"
+    description: "Unmutes the player"
+    aliases: []
+
+  vanish:
+    usage: "/<command> [on/off]"
+    description: "Make yourself fully invisible"
+    aliases: [v]
+
+  report:
+    usage: "/<command> <player> <reason>"
+    description: "Report a player for breaking the rules"
+    aliases: []
+
+  togglepickup:
+    usage: "/<command>"
+    description: "Toggle if you pickup items or not"
+    aliases: [toggleitempickup, tip, itempickup]
